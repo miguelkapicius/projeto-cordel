@@ -45,7 +45,7 @@ section {
   line-height: 2em;
   padding-left: 30px;
   font-family: 'Sriracha', cursive;
- font-size: 4vw;
+  font-size: 3.5vw;
 }
 
 section.normal {
@@ -54,9 +54,22 @@ section.normal {
 }
 
 section.parallax {
-  background-color: #333;
   color: white;
+  box-shadow: inset 8px 8px 16px 0px rgba(0, 0, 0, 0.521);
+}
 
+section#img01 {
+  background-image: url(imagens/background001.jpg);
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+section#img02 {
+  background-image: url(imagens/background002.jpg);
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 section.parallax p {
